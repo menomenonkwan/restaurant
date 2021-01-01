@@ -125,7 +125,7 @@ nav li:hover {
   cursor: pointer;
 }
 
-.active {transition: all 0.2s ease;
+.active {
   background: rgba(0,0,0,0.2);
   color: var(--pink);
 }
@@ -158,6 +158,7 @@ main {
   width: 50%;
   background: var(--purple-opac);
   padding: 2rem;
+  animation: fade 0.25s;
 }
 
 #home p {
@@ -193,6 +194,7 @@ main {
   align-items: start;
   padding: 2rem;
   gap: 2rem;
+  animation: fade 0.25s;
 }
 
 .menu-item {
@@ -239,6 +241,7 @@ main {
   display: flex;
   background: var(--purple-opac);
   padding-bottom: 4rem;
+  animation: fade 0.25s;
 }
 
 #contact div {
@@ -302,6 +305,12 @@ footer {
   background: rgba(0,0,0,0.75);
   position: absolute;
   bottom: 0;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1;
+  }
 }
 
 /* ----------------------------------- */
