@@ -206,7 +206,11 @@ main {
   align-items: start;
   padding: 2rem;
   gap: 2rem;
+<<<<<<< HEAD
   animation: fade 0.25s;
+=======
+  animation: fade 0.25s;  
+>>>>>>> 3cbcf929499ca76c1290c137d2e3d5ed8e60961d
 }
 
 .menu-item {
