@@ -187,10 +187,10 @@ main {
 /* ----------------------------------- */
 #menu-grid { 
   background: var(--purple-opac);
-  width: 90%;
+  width: 80%;
   margin: 2rem auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   align-items: start;
   padding: 2rem;
   gap: 2rem;
