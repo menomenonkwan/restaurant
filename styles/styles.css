@@ -199,18 +199,14 @@ main {
 /* ----------------------------------- */
 #menu-grid {
   background: var(--purple-opac);
-  width: 90%;
+  width: 80%;
   margin: 2rem auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   align-items: start;
   padding: 2rem;
   gap: 2rem;
-<<<<<<< HEAD
   animation: fade 0.25s;
-=======
-  animation: fade 0.25s;  
->>>>>>> 3cbcf929499ca76c1290c137d2e3d5ed8e60961d
 }
 
 .menu-item {
